@@ -51,20 +51,22 @@ img{
     background-color: lightcyan;
     color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 120px;
+    justify-content:center;
+    align-items: flex-end;
+    font-size: 100px;
+    color: yellow ;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
     background-image: url(../img/photo_2023-08-17_14-48-33.jpg);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: center;
+    background-size: contain;
     /* background-image: linear-gradient(
         to right bottom,
         yellow,
         black
-    ); */
+    ); */ */
     /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
